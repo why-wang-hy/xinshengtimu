@@ -77,7 +77,7 @@ int sum=0;
  ao=0;
 sum=0;
  scanf("%d",&ao);}
-   if(ao==-1) {printf("谢谢使用！\n");exit(0);}
+   if(ao==-1) {printf("谢谢使用！\n");continue;}
    
    
    else {if (ao<amount) {
