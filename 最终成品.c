@@ -87,12 +87,12 @@ sum=0;
 	 printf("钱不够哦，请再投入纸币:");
    sum=ao+sum;
    scanf("%d",&ao);}
-  if (sum+ao==amount) printf("请稍后，售货机马上出货\n") ;
-  else if (ao!=-1) printf("找您%d元。请稍等，商品马上出货\n",sum+ao-amount); }}
+  if (sum+ao==amount) printf("请稍后，售货机马上出货!\n") ;
+  else if (ao!=-1) printf("找您%d元。请稍等，商品马上出货!\n",sum+ao-amount); }}
   
 
- else if (ao==amount) printf("请稍后，售货机马上出货\n") ;
- else if (ao!=-1) {printf("找您%d元。请稍等，售货机马上出货\n",ao-amount);}}
+ else if (ao==amount) printf("请稍后，售货机马上出货!\n") ;
+ else if (ao!=-1) {printf("找您%d元。请稍等，售货机马上出货!\n",ao-amount);}}
  
  printf("谢谢使用！\n");
  
@@ -105,7 +105,7 @@ sum=0;
 }
   
    v=0;
-  printf("若继续购买，请输入'-2'\n"); 
+  printf("若想要继续购买或初始化页面，请输入'-2'.\n"); 
   scanf("%d",&v);
   
 }
